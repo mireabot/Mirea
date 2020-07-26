@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A05D5C524AB313C00A17B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05D5C424AB313C00A17B04 /* AppDelegate.swift */; };
+		6A05D5C724AB313C00A17B04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05D5C624AB313C00A17B04 /* SceneDelegate.swift */; };
+		6A05D5CA24AB313C00A17B04 /* LK_Mirea.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A05D5C824AB313C00A17B04 /* LK_Mirea.xcdatamodeld */; };
+		6A05D5CC24AB313C00A17B04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05D5CB24AB313C00A17B04 /* ContentView.swift */; };
+		6A05D5CE24AB313E00A17B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A05D5CD24AB313E00A17B04 /* Assets.xcassets */; };
+		6A05D5D124AB313E00A17B04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A05D5D024AB313E00A17B04 /* Preview Assets.xcassets */; };
+		6A05D5D424AB313E00A17B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A05D5D224AB313E00A17B04 /* LaunchScreen.storyboard */; };
+		6A05D5DF24AB313E00A17B04 /* LK_MireaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05D5DE24AB313E00A17B04 /* LK_MireaTests.swift */; };
+		6A05D5EA24AB313E00A17B04 /* LK_MireaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05D5E924AB313E00A17B04 /* LK_MireaUITests.swift */; };
+		6A0A5D2724ABBCBF00A7A638 /* matan1sem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0A5D2624ABBCBE00A7A638 /* matan1sem.pdf */; };
+		6A29049A24C9C09D00B96C5D /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A29049924C9C09D00B96C5D /* DATA.swift */; };
+		6A64D40F24ACAAA2006E749A /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64D40E24ACAAA2006E749A /* Web.swift */; };
+		6ACF06EC24CB7191007E57FA /* MIREA_colour.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACF06EB24CB7190007E57FA /* MIREA_colour.png */; };
+		6AD4A94924ABACCE009E727E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD4A94824ABACCE009E727E /* WebView.swift */; };
+		6AEDDAC924AC8E5E00257EA9 /* matan2sem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDDAC824AC8E5E00257EA9 /* matan2sem.pdf */; };
+		6AEDDACB24AC95CC00257EA9 /* linal1sem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDDACA24AC95CB00257EA9 /* linal1sem.pdf */; };
+		6AEDDACD24AC95D200257EA9 /* linal2sem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDDACC24AC95D200257EA9 /* linal2sem.pdf */; };
+		6AEDDACF24AC994300257EA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDDACE24AC994300257EA9 /* GoogleService-Info.plist */; };
+		7FF5AD90DFCE0A18413B1790 /* Pods_LK_Mirea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F158032875B14E359DD11D8 /* Pods_LK_Mirea.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A05D5DB24AB313E00A17B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A05D5B924AB313C00A17B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A05D5C024AB313C00A17B04;
+			remoteInfo = LK_Mirea;
+		};
+		6A05D5E624AB313E00A17B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A05D5B924AB313C00A17B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A05D5C024AB313C00A17B04;
+			remoteInfo = LK_Mirea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F158032875B14E359DD11D8 /* Pods_LK_Mirea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LK_Mirea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC0F8E1D94ED54432FA4246 /* Pods-LK_Mirea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LK_Mirea.release.xcconfig"; path = "Target Support Files/Pods-LK_Mirea/Pods-LK_Mirea.release.xcconfig"; sourceTree = "<group>"; };
+		6A05D5C124AB313C00A17B04 /* LK Mirea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LK Mirea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A05D5C424AB313C00A17B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A05D5C624AB313C00A17B04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A05D5C924AB313C00A17B04 /* LK_Mirea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LK_Mirea.xcdatamodel; sourceTree = "<group>"; };
+		6A05D5CB24AB313C00A17B04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A05D5CD24AB313E00A17B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A05D5D024AB313E00A17B04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A05D5D324AB313E00A17B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A05D5D524AB313E00A17B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A05D5DA24AB313E00A17B04 /* LK_MireaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LK_MireaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A05D5DE24AB313E00A17B04 /* LK_MireaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LK_MireaTests.swift; sourceTree = "<group>"; };
+		6A05D5E024AB313E00A17B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A05D5E524AB313E00A17B04 /* LK_MireaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LK_MireaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A05D5E924AB313E00A17B04 /* LK_MireaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LK_MireaUITests.swift; sourceTree = "<group>"; };
+		6A05D5EB24AB313E00A17B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0A5D2624ABBCBE00A7A638 /* matan1sem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = matan1sem.pdf; path = ../../../Downloads/matan1sem.pdf; sourceTree = "<group>"; };
+		6A29049924C9C09D00B96C5D /* DATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
+		6A64D40E24ACAAA2006E749A /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		6ACF06EB24CB7190007E57FA /* MIREA_colour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MIREA_colour.png; path = ../../../Downloads/MIREA_colour.png; sourceTree = "<group>"; };
+		6AD4A94824ABACCE009E727E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6AEDDAC824AC8E5E00257EA9 /* matan2sem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = matan2sem.pdf; path = ../../../Downloads/matan2sem.pdf; sourceTree = "<group>"; };
+		6AEDDACA24AC95CB00257EA9 /* linal1sem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = linal1sem.pdf; path = ../../../Downloads/linal1sem.pdf; sourceTree = "<group>"; };
+		6AEDDACC24AC95D200257EA9 /* linal2sem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = linal2sem.pdf; path = ../../../Downloads/linal2sem.pdf; sourceTree = "<group>"; };
+		6AEDDACE24AC994300257EA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75ACD6C1015B6C0648851397 /* Pods-LK_Mirea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LK_Mirea.debug.xcconfig"; path = "Target Support Files/Pods-LK_Mirea/Pods-LK_Mirea.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A05D5BE24AB313C00A17B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF5AD90DFCE0A18413B1790 /* Pods_LK_Mirea.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A05D5D724AB313E00A17B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A05D5E224AB313E00A17B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C7C90E4166BA632B9C4E21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75ACD6C1015B6C0648851397 /* Pods-LK_Mirea.debug.xcconfig */,
+				2EC0F8E1D94ED54432FA4246 /* Pods-LK_Mirea.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A05D5B824AB313C00A17B04 = {
+			isa = PBXGroup;
+			children = (
+				6A05D5C324AB313C00A17B04 /* LK_Mirea */,
+				6A05D5DD24AB313E00A17B04 /* LK_MireaTests */,
+				6A05D5E824AB313E00A17B04 /* LK_MireaUITests */,
+				6A05D5C224AB313C00A17B04 /* Products */,
+				14C7C90E4166BA632B9C4E21 /* Pods */,
+				86CE014CFF35F71FD8843BBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A05D5C224AB313C00A17B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A05D5C124AB313C00A17B04 /* LK Mirea.app */,
+				6A05D5DA24AB313E00A17B04 /* LK_MireaTests.xctest */,
+				6A05D5E524AB313E00A17B04 /* LK_MireaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A05D5C324AB313C00A17B04 /* LK_Mirea */ = {
+			isa = PBXGroup;
+			children = (
+				6A05D5C424AB313C00A17B04 /* AppDelegate.swift */,
+				6A05D5C624AB313C00A17B04 /* SceneDelegate.swift */,
+				6A05D5CB24AB313C00A17B04 /* ContentView.swift */,
+				6A05D5CD24AB313E00A17B04 /* Assets.xcassets */,
+				6A05D5D224AB313E00A17B04 /* LaunchScreen.storyboard */,
+				6A05D5D524AB313E00A17B04 /* Info.plist */,
+				6A05D5C824AB313C00A17B04 /* LK_Mirea.xcdatamodeld */,
+				6A0A5D2624ABBCBE00A7A638 /* matan1sem.pdf */,
+				6AEDDAC824AC8E5E00257EA9 /* matan2sem.pdf */,
+				6AEDDACA24AC95CB00257EA9 /* linal1sem.pdf */,
+				6AEDDACC24AC95D200257EA9 /* linal2sem.pdf */,
+				6ACF06EB24CB7190007E57FA /* MIREA_colour.png */,
+				6AEDDACE24AC994300257EA9 /* GoogleService-Info.plist */,
+				6A05D5CF24AB313E00A17B04 /* Preview Content */,
+				6AD4A94824ABACCE009E727E /* WebView.swift */,
+				6A64D40E24ACAAA2006E749A /* Web.swift */,
+				6A29049924C9C09D00B96C5D /* DATA.swift */,
+			);
+			path = LK_Mirea;
+			sourceTree = "<group>";
+		};
+		6A05D5CF24AB313E00A17B04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A05D5D024AB313E00A17B04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A05D5DD24AB313E00A17B04 /* LK_MireaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A05D5DE24AB313E00A17B04 /* LK_MireaTests.swift */,
+				6A05D5E024AB313E00A17B04 /* Info.plist */,
+			);
+			path = LK_MireaTests;
+			sourceTree = "<group>";
+		};
+		6A05D5E824AB313E00A17B04 /* LK_MireaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A05D5E924AB313E00A17B04 /* LK_MireaUITests.swift */,
+				6A05D5EB24AB313E00A17B04 /* Info.plist */,
+			);
+			path = LK_MireaUITests;
+			sourceTree = "<group>";
+		};
+		86CE014CFF35F71FD8843BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F158032875B14E359DD11D8 /* Pods_LK_Mirea.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A05D5C024AB313C00A17B04 /* LK_Mirea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A05D5EE24AB313E00A17B04 /* Build configuration list for PBXNativeTarget "LK_Mirea" */;
+			buildPhases = (
+				3FCA9AD1E5B55D3348D9A81F /* [CP] Check Pods Manifest.lock */,
+				6A05D5BD24AB313C00A17B04 /* Sources */,
+				6A05D5BE24AB313C00A17B04 /* Frameworks */,
+				6A05D5BF24AB313C00A17B04 /* Resources */,
+				454B591131B3F5BBE1FF548C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LK_Mirea;
+			productName = LK_Mirea;
+			productReference = 6A05D5C124AB313C00A17B04 /* LK Mirea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A05D5D924AB313E00A17B04 /* LK_MireaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A05D5F124AB313E00A17B04 /* Build configuration list for PBXNativeTarget "LK_MireaTests" */;
+			buildPhases = (
+				6A05D5D624AB313E00A17B04 /* Sources */,
+				6A05D5D724AB313E00A17B04 /* Frameworks */,
+				6A05D5D824AB313E00A17B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A05D5DC24AB313E00A17B04 /* PBXTargetDependency */,
+			);
+			name = LK_MireaTests;
+			productName = LK_MireaTests;
+			productReference = 6A05D5DA24AB313E00A17B04 /* LK_MireaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A05D5E424AB313E00A17B04 /* LK_MireaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A05D5F424AB313E00A17B04 /* Build configuration list for PBXNativeTarget "LK_MireaUITests" */;
+			buildPhases = (
+				6A05D5E124AB313E00A17B04 /* Sources */,
+				6A05D5E224AB313E00A17B04 /* Frameworks */,
+				6A05D5E324AB313E00A17B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A05D5E724AB313E00A17B04 /* PBXTargetDependency */,
+			);
+			name = LK_MireaUITests;
+			productName = LK_MireaUITests;
+			productReference = 6A05D5E524AB313E00A17B04 /* LK_MireaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A05D5B924AB313C00A17B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MKM.LLC;
+				TargetAttributes = {
+					6A05D5C024AB313C00A17B04 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6A05D5D924AB313E00A17B04 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6A05D5C024AB313C00A17B04;
+					};
+					6A05D5E424AB313E00A17B04 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6A05D5C024AB313C00A17B04;
+					};
+				};
+			};
+			buildConfigurationList = 6A05D5BC24AB313C00A17B04 /* Build configuration list for PBXProject "LK_Mirea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A05D5B824AB313C00A17B04;
+			productRefGroup = 6A05D5C224AB313C00A17B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A05D5C024AB313C00A17B04 /* LK_Mirea */,
+				6A05D5D924AB313E00A17B04 /* LK_MireaTests */,
+				6A05D5E424AB313E00A17B04 /* LK_MireaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A05D5BF24AB313C00A17B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEDDAC924AC8E5E00257EA9 /* matan2sem.pdf in Resources */,
+				6AEDDACF24AC994300257EA9 /* GoogleService-Info.plist in Resources */,
+				6ACF06EC24CB7191007E57FA /* MIREA_colour.png in Resources */,
+				6AEDDACB24AC95CC00257EA9 /* linal1sem.pdf in Resources */,
+				6A0A5D2724ABBCBF00A7A638 /* matan1sem.pdf in Resources */,
+				6A05D5D424AB313E00A17B04 /* LaunchScreen.storyboard in Resources */,
+				6A05D5D124AB313E00A17B04 /* Preview Assets.xcassets in Resources */,
+				6A05D5CE24AB313E00A17B04 /* Assets.xcassets in Resources */,
+				6AEDDACD24AC95D200257EA9 /* linal2sem.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A05D5D824AB313E00A17B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A05D5E324AB313E00A17B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FCA9AD1E5B55D3348D9A81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LK_Mirea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		454B591131B3F5BBE1FF548C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LK_Mirea/Pods-LK_Mirea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LK_Mirea/Pods-LK_Mirea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LK_Mirea/Pods-LK_Mirea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A05D5BD24AB313C00A17B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A64D40F24ACAAA2006E749A /* Web.swift in Sources */,
+				6A05D5CA24AB313C00A17B04 /* LK_Mirea.xcdatamodeld in Sources */,
+				6AD4A94924ABACCE009E727E /* WebView.swift in Sources */,
+				6A29049A24C9C09D00B96C5D /* DATA.swift in Sources */,
+				6A05D5C524AB313C00A17B04 /* AppDelegate.swift in Sources */,
+				6A05D5CC24AB313C00A17B04 /* ContentView.swift in Sources */,
+				6A05D5C724AB313C00A17B04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A05D5D624AB313E00A17B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A05D5DF24AB313E00A17B04 /* LK_MireaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A05D5E124AB313E00A17B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A05D5EA24AB313E00A17B04 /* LK_MireaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A05D5DC24AB313E00A17B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A05D5C024AB313C00A17B04 /* LK_Mirea */;
+			targetProxy = 6A05D5DB24AB313E00A17B04 /* PBXContainerItemProxy */;
+		};
+		6A05D5E724AB313E00A17B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A05D5C024AB313C00A17B04 /* LK_Mirea */;
+			targetProxy = 6A05D5E624AB313E00A17B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A05D5D224AB313E00A17B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A05D5D324AB313E00A17B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A05D5EC24AB313E00A17B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A05D5ED24AB313E00A17B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A05D5EF24AB313E00A17B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75ACD6C1015B6C0648851397 /* Pods-LK_Mirea.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LK_Mirea/Preview Content\"";
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LK_Mirea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.LK-Mirea";
+				PRODUCT_NAME = "LK Mirea";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A05D5F024AB313E00A17B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC0F8E1D94ED54432FA4246 /* Pods-LK_Mirea.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LK_Mirea/Preview Content\"";
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LK_Mirea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.LK-Mirea";
+				PRODUCT_NAME = "LK Mirea";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A05D5F224AB313E00A17B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = LK_MireaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.LK-MireaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LK_Mirea.app/LK_Mirea";
+			};
+			name = Debug;
+		};
+		6A05D5F324AB313E00A17B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = LK_MireaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.LK-MireaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LK_Mirea.app/LK_Mirea";
+			};
+			name = Release;
+		};
+		6A05D5F524AB313E00A17B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = LK_MireaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.LK-MireaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LK_Mirea;
+			};
+			name = Debug;
+		};
+		6A05D5F624AB313E00A17B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F63AT3Y2WN;
+				INFOPLIST_FILE = LK_MireaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MKM.LK-MireaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LK_Mirea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A05D5BC24AB313C00A17B04 /* Build configuration list for PBXProject "LK_Mirea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A05D5EC24AB313E00A17B04 /* Debug */,
+				6A05D5ED24AB313E00A17B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A05D5EE24AB313E00A17B04 /* Build configuration list for PBXNativeTarget "LK_Mirea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A05D5EF24AB313E00A17B04 /* Debug */,
+				6A05D5F024AB313E00A17B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A05D5F124AB313E00A17B04 /* Build configuration list for PBXNativeTarget "LK_MireaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A05D5F224AB313E00A17B04 /* Debug */,
+				6A05D5F324AB313E00A17B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A05D5F424AB313E00A17B04 /* Build configuration list for PBXNativeTarget "LK_MireaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A05D5F524AB313E00A17B04 /* Debug */,
+				6A05D5F624AB313E00A17B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A05D5C824AB313C00A17B04 /* LK_Mirea.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A05D5C924AB313C00A17B04 /* LK_Mirea.xcdatamodel */,
+			);
+			currentVersion = 6A05D5C924AB313C00A17B04 /* LK_Mirea.xcdatamodel */;
+			path = LK_Mirea.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A05D5B924AB313C00A17B04 /* Project object */;
+}
